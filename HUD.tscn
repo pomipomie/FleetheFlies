@@ -9,7 +9,7 @@ size = 40
 font_data = ExtResource( 1 )
 
 [sub_resource type="DynamicFont" id=8]
-size = 90
+size = 85
 font_data = ExtResource( 3 )
 
 [sub_resource type="StyleBoxFlat" id=6]
@@ -51,10 +51,11 @@ custom_colors/font_color_shadow = Color( 0.054902, 0.207843, 0.27451, 1 )
 custom_constants/shadow_offset_x = 5
 custom_constants/shadow_offset_y = 7
 custom_fonts/font = SubResource( 8 )
-text = "Fly the 
+text = "Flee the 
 Flies"
 align = 1
 valign = 1
+autowrap = true
 
 [node name="StartButton" type="Button" parent="."]
 anchor_left = 0.5

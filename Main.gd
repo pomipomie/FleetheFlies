@@ -22,7 +22,7 @@ func new_game():
 	get_tree().call_group("mobs", "queue_free")
 	$StartTimer.start()
 	$HUD.update_score(score)
-	$HUD.show_message("Get Ready")
+	$HUD.show_message("Dodge the flies for 20 seconds")
 
 func _on_FlyTimer_timeout():
 	# Create a new instance of the fly scene.
